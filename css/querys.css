@@ -1,0 +1,150 @@
+@media only screen and (max-width: 780px){
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .submenu li a {
+        display: inline-block;
+              
+    }
+
+    .busca__buscar {
+        width: 6rem;
+        font-size: 0.8rem;
+        float: right;
+        
+    }
+
+    .busca__buscador {
+        max-width: 120px;
+
+    }
+
+    #logo {
+    
+        font-size: 2rem;
+
+    }
+
+    .sesion p {
+        margin: 0.6rem 0.6rem 0.6rem 1.2rem;
+    }
+    
+    p a {
+           
+        font-size: .6rem;
+    
+    }
+/* --------------SLIDE--------------- */
+    .container {
+        width: 25rem;
+        height: 19rem;
+        
+    }
+
+    .slider {
+        width: 25rem;
+        height: 17rem;
+        margin-top: 8%;
+  
+    }
+
+    .slider__menu li {
+        bottom: 2.5rem;
+    }
+
+    
+
+    
+}
+@media only screen and (min-width: 781px) {
+
+    .nav {
+        display: flex;
+        justify-content: center;
+             
+    }
+
+    #cabecera{
+        max-height: 96px;          
+    }
+
+    .submenu li a {
+        display: block;
+                
+    }
+
+    .busca__buscar {
+        width: 7rem;
+        font-size: 1rem;
+        
+        
+    }
+
+    .busca__buscador {
+        max-width: 10rem;
+      
+       
+    }
+
+
+    #logo {
+    
+        font-size: 2.6rem;
+
+    }
+
+    .sesion p {
+        margin: 1rem 1rem 1rem 2rem;
+    }
+    
+    p a {
+           
+        font-size: .8rem;
+    
+    }
+
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+
+    /* --------------SLIDE--------------- */
+    .container {
+
+        width: 40rem;
+        height: 30.4rem;
+    }
+
+    .slider {
+        width: 40rem;
+        height: 27.2rem;
+        margin-top: 18%;
+    }
+
+    .slider__menu li {
+        bottom: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+
+    /* --------------SLIDE--------------- */
+    .container {
+
+        width: 50rem;
+        height: 38rem;
+    }
+
+    .slider {
+        width: 50rem;
+        height: 34rem;
+        margin-top: 10%;
+  
+    }
+
+    .slider__menu li {
+        bottom: 1.5rem;
+    }
+}
